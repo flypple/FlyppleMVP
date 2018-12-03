@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.flyppe.flypplemvp">
+    package="com.flypple.flypplemvp">
 
     <application
         android:allowBackup="true"
@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".global.App">
-        <activity android:name=".view.acivity.MainActivity">
+        android:name="com.flypple.flypplemvp.global.App">
+        <activity android:name="com.flypple.flypplemvp.view.acivity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
